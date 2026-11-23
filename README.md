@@ -9,10 +9,15 @@ Lauren Tan(poteto)의 "Automate Anything" 프롬프트(Grok Bot용)를 어떤 �
 - 원작: Lauren Tan(poteto), "Automate Anything"
 - 재구성: 안상선 ((주)M-Robo 대표)
 
+## 소개 페이지
+
+`index.html` — 6단계 그림 해설, 주문서 복사 버튼, 시연 채점표가 들어 있습니다. GitHub Pages(main 브랜치 루트)로 공개합니다.
+
 ## 구성
 
 | 경로 | 내용 |
 |---|---|
+| `index.html` | 소개 페이지 (흰 배경·픽셀아트, 주문서 복사 버튼, 시연 채점표) |
 | `scrolls/magic_scroll_automate_anything_news_ko.md` | 주문서 한국어판 — 하루판·뉴스 분석편 |
 | `tools/google_news_rss.py` | 구글 뉴스 RSS 수집기 (CSV + AI 붙여넣기용 md) |
 | `tools/google_news_rss_colab.ipynb` | 같은 수집기의 Colab 노트북판 — 실행 후 md 파일 내려받기 |
