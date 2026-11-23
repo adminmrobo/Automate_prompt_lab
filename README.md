@@ -13,6 +13,7 @@ Lauren Tan(poteto)의 "Automate Anything" 프롬프트(Grok Bot용)를 어떤 �
 |---|---|
 | `scrolls/magic_scroll_automate_anything_news_ko.md` | 주문서 한국어판 — 하루판·뉴스 분석편 |
 | `tools/google_news_rss.py` | 구글 뉴스 RSS 수집기 (CSV + AI 붙여넣기용 md) |
+| `tools/google_news_rss_colab.ipynb` | 같은 수집기의 Colab 노트북판 — 실행 후 md 파일 내려받기 |
 | `samples/news_20261124_0148.md` | 수집 예시 — 키워드 "인공지능", 최근 1일, 98건 |
 
 ## 주문서 6단계
