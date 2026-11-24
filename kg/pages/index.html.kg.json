@@ -1,0 +1,189 @@
+{
+ "version": "1.0",
+ "page": "index",
+ "nodes": [
+  {
+   "id": "lab:method/prompt-engineering",
+   "type": "Method",
+   "label": {
+    "ko": "프롬프트 엔지니어링",
+    "en": "Prompt engineering"
+   },
+   "page": "index",
+   "anchor": "#scroll",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "llm"
+   ],
+   "match": [],
+   "definition": {
+    "ko": "모델이 원하는 출력을 내도록 지시문을 설계하는 기술."
+   }
+  },
+  {
+   "id": "lab:concept/prompt",
+   "type": "Concept",
+   "label": {
+    "ko": "프롬프트",
+    "en": "Prompt"
+   },
+   "page": "index",
+   "anchor": "#scrollText",
+   "level": 1,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "genai",
+    "llm"
+   ],
+   "match": [],
+   "definition": {
+    "ko": "AI에게 무엇을 만들지 알려 주는 글."
+   }
+  },
+  {
+   "id": "lab:concept/llm-agent",
+   "type": "Concept",
+   "label": {
+    "ko": "에이전트",
+    "en": "LLM agent"
+   },
+   "page": "index",
+   "anchor": "#scroll",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "llm"
+   ],
+   "match": [],
+   "definition": {
+    "ko": "목표를 받아 도구를 부르고 여러 단계를 스스로 실행하는 AI 시스템."
+   }
+  },
+  {
+   "id": "lab:concept/llm",
+   "type": "Concept",
+   "label": {
+    "ko": "LLM",
+    "en": "Large language model"
+   },
+   "page": "index",
+   "anchor": "#scroll",
+   "level": 1,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "domain": [
+    "llm"
+   ],
+   "match": [],
+   "definition": {
+    "ko": "수십억~수조 파라미터의 대규모 언어모델. 범용성·창발성."
+   }
+  },
+  {
+   "id": "lab:topic/system-prompts",
+   "type": "Topic",
+   "label": {
+    "ko": "시스템 지시문",
+    "en": "System prompts"
+   },
+   "page": "index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "llm"
+   ],
+   "match": []
+  },
+  {
+   "id": "lab:topic/prompt-patterns",
+   "type": "Topic",
+   "label": {
+    "ko": "프롬프트 패턴",
+    "en": "Prompt patterns"
+   },
+   "page": "index",
+   "anchor": "#kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "llm"
+   ],
+   "match": []
+  },
+  {
+   "id": "lab:topic/planning-agents",
+   "type": "Topic",
+   "label": {
+    "ko": "계획과 반복 실행",
+    "en": "Planning and iteration"
+   },
+   "page": "index",
+   "anchor": "#kg",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "domain": [
+    "llm"
+   ],
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/prompt",
+   "p": "lab:broader",
+   "o": "lab:topic/system-prompts",
+   "anchor": "#scrollText",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/prompt-engineering",
+   "p": "lab:broader",
+   "o": "lab:topic/prompt-patterns",
+   "anchor": "#scroll",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/prompt-engineering",
+   "p": "lab:uses",
+   "o": "lab:concept/prompt",
+   "anchor": "#scroll",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/prompt",
+   "p": "lab:relatedTo",
+   "o": "lab:concept/llm",
+   "anchor": "#scroll",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:broader",
+   "o": "lab:topic/planning-agents",
+   "anchor": "#scroll",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:uses",
+   "o": "lab:concept/llm",
+   "anchor": "#scroll",
+   "confidence": "medium"
+  }
+ ]
+}

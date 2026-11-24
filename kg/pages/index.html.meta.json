@@ -1,0 +1,30 @@
+{
+ "title": "LLM의 마법 주문서 — Automate Anything (하루판)",
+ "number": "01",
+ "series": "LLM의 마법 주문서",
+ "date": "2026-11-24",
+ "version": "1.1",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "about": [
+  "lab:method/prompt-engineering",
+  "lab:concept/llm-agent"
+ ],
+ "basedOn": [],
+ "educationalLevel": "입문~중급",
+ "license": "",
+ "url": "https://adminmrobo.github.io/Automate_prompt_lab/index.html",
+ "registry": "KG_00_registry 0.3",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). LLM의 마법 주문서 — Automate Anything (하루판). v1.1."
+}

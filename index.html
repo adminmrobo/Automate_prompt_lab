@@ -73,6 +73,15 @@ footer a{color:var(--navy)}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 18px;border-radius:8px;font:15px "Galmuri11",monospace;opacity:0;transition:opacity .25s;pointer-events:none}
 .toast.on{opacity:1}
 </style>
+<!-- lab-kg:head -->
+<meta name="citation_title" content="LLM의 마법 주문서 — Automate Anything (하루판)">
+<meta name="dc.title" content="LLM의 마법 주문서 — Automate Anything (하루판)">
+<meta name="dc.date" content="2026-11-24">
+<meta name="dc.language" content="ko">
+<meta name="dc.type" content="InteractiveResource">
+<meta name="citation_author" content="안상선">
+<meta name="dcterms.isPartOf" content="LLM의 마법 주문서">
+<!-- /lab-kg:head -->
 </head>
 <body>
 
@@ -251,6 +260,22 @@ python tools/google_news_rss.py 인공지능 --days 1
   </div>
 </section>
 
+<!-- lab-kg:body -->
+<section class="kgx kgx-sec" id="kg"><div class="kgx-wrap">
+<h2>지식 색인 — 이 페이지에서 찾아보기</h2>
+<p class="kgx-sub">이 페이지에 나온 개념, 방법, 생물 대응, 주장, 열린 질문을 한곳에 모았다. 검색하고, 항목을 눌러 이웃 관계를 보고, "설명 보러 가기"로 본문에 돌아간다.</p>
+<div id="kg-mount"></div>
+</div></section>
+<section class="kgx kgx-sec" id="export"><div class="kgx-wrap">
+<h2>온톨로지·서지 꾸러미 — 이 페이지의 지식을 가져가기</h2>
+<p class="kgx-sub">지식 색인을 출처와 함께 파일로 내려받는다. Zotero(BibTeX·RIS), Protégé(Turtle), Neo4j·Gephi(CSV), 여러 페이지 합치기(kg.json)에 쓴다.</p>
+<div id="export-mount"></div>
+</div></section>
+<script type="application/json" id="kg-raw">{"version":"1.0","page":"index","nodes":[{"id":"lab:method/prompt-engineering","type":"Method","label":{"ko":"프롬프트 엔지니어링","en":"Prompt engineering"},"page":"index","anchor":"#scroll","level":2,"status":"known","confidence":"medium","coverage":"explained","domain":["llm"],"match":[],"definition":{"ko":"모델이 원하는 출력을 내도록 지시문을 설계하는 기술."}},{"id":"lab:concept/prompt","type":"Concept","label":{"ko":"프롬프트","en":"Prompt"},"page":"index","anchor":"#scrollText","level":1,"status":"known","confidence":"medium","coverage":"explained","domain":["genai","llm"],"match":[],"definition":{"ko":"AI에게 무엇을 만들지 알려 주는 글."}},{"id":"lab:concept/llm-agent","type":"Concept","label":{"ko":"에이전트","en":"LLM agent"},"page":"index","anchor":"#scroll","level":2,"status":"known","confidence":"medium","coverage":"mentioned","domain":["llm"],"match":[],"definition":{"ko":"목표를 받아 도구를 부르고 여러 단계를 스스로 실행하는 AI 시스템."}},{"id":"lab:concept/llm","type":"Concept","label":{"ko":"LLM","en":"Large language model"},"page":"index","anchor":"#scroll","level":1,"status":"known","confidence":"medium","coverage":"mentioned","domain":["llm"],"match":[],"definition":{"ko":"수십억~수조 파라미터의 대규모 언어모델. 범용성·창발성."}},{"id":"lab:topic/system-prompts","type":"Topic","label":{"ko":"시스템 지시문","en":"System prompts"},"page":"index","anchor":"#kg","level":2,"status":"known","confidence":"medium","coverage":"explained","domain":["llm"],"match":[]},{"id":"lab:topic/prompt-patterns","type":"Topic","label":{"ko":"프롬프트 패턴","en":"Prompt patterns"},"page":"index","anchor":"#kg","level":2,"status":"known","confidence":"medium","coverage":"explained","domain":["llm"],"match":[]},{"id":"lab:topic/planning-agents","type":"Topic","label":{"ko":"계획과 반복 실행","en":"Planning and iteration"},"page":"index","anchor":"#kg","level":3,"status":"known","confidence":"medium","coverage":"explained","domain":["llm"],"match":[]}],"edges":[{"s":"lab:concept/prompt","p":"lab:broader","o":"lab:topic/system-prompts","anchor":"#scrollText","confidence":"medium"},{"s":"lab:method/prompt-engineering","p":"lab:broader","o":"lab:topic/prompt-patterns","anchor":"#scroll","confidence":"medium"},{"s":"lab:method/prompt-engineering","p":"lab:uses","o":"lab:concept/prompt","anchor":"#scroll","confidence":"medium"},{"s":"lab:concept/prompt","p":"lab:relatedTo","o":"lab:concept/llm","anchor":"#scroll","confidence":"medium"},{"s":"lab:concept/llm-agent","p":"lab:broader","o":"lab:topic/planning-agents","anchor":"#scroll","confidence":"medium"},{"s":"lab:concept/llm-agent","p":"lab:uses","o":"lab:concept/llm","anchor":"#scroll","confidence":"medium"}]}</script>
+<script type="application/ld+json" id="kg-ld">{"@context":{"@vocab":"urn:lab:","lab":"urn:lab:","skos":"http://www.w3.org/2004/02/skos/core#","schema":"https://schema.org/","dct":"http://purl.org/dc/terms/","prov":"http://www.w3.org/ns/prov#","rdfs":"http://www.w3.org/2000/01/rdf-schema#"},"@graph":[{"@id":"urn:lab:page/01","@type":["schema:LearningResource","schema:WebPage"],"schema:name":"LLM의 마법 주문서 — Automate Anything (하루판)","schema:dateCreated":"2026-11-24","schema:version":"1.1","dct:isPartOf":"LLM의 마법 주문서","schema:about":[{"@id":"lab:method/prompt-engineering"},{"@id":"lab:concept/llm-agent"}],"schema:educationalLevel":"입문~중급","dct:source":[]},{"@id":"lab:method/prompt-engineering","@type":["lab:Method","skos:Concept"],"skos:prefLabel":[{"@value":"프롬프트 엔지니어링","@language":"ko"},{"@value":"Prompt engineering","@language":"en"}],"skos:definition":[{"@value":"모델이 원하는 출력을 내도록 지시문을 설계하는 기술.","@language":"ko"}],"lab:level":2,"lab:status":"known","lab:confidence":"medium","lab:coverage":"explained","lab:page":"index","lab:anchor":"#scroll","lab:broader":[{"@id":"lab:topic/prompt-patterns"}],"skos:broader":[{"@id":"lab:topic/prompt-patterns"}],"lab:uses":[{"@id":"lab:concept/prompt"}]},{"@id":"lab:concept/prompt","@type":["lab:Concept","skos:Concept"],"skos:prefLabel":[{"@value":"프롬프트","@language":"ko"},{"@value":"Prompt","@language":"en"}],"skos:definition":[{"@value":"AI에게 무엇을 만들지 알려 주는 글.","@language":"ko"}],"lab:level":1,"lab:status":"known","lab:confidence":"medium","lab:coverage":"explained","lab:page":"index","lab:anchor":"#scrollText","lab:broader":[{"@id":"lab:topic/system-prompts"}],"skos:broader":[{"@id":"lab:topic/system-prompts"}],"lab:relatedTo":[{"@id":"lab:concept/llm"}],"skos:related":[{"@id":"lab:concept/llm"}]},{"@id":"lab:concept/llm-agent","@type":["lab:Concept","skos:Concept"],"skos:prefLabel":[{"@value":"에이전트","@language":"ko"},{"@value":"LLM agent","@language":"en"}],"skos:definition":[{"@value":"목표를 받아 도구를 부르고 여러 단계를 스스로 실행하는 AI 시스템.","@language":"ko"}],"lab:level":2,"lab:status":"known","lab:confidence":"medium","lab:coverage":"mentioned","lab:page":"index","lab:anchor":"#scroll","lab:broader":[{"@id":"lab:topic/planning-agents"}],"skos:broader":[{"@id":"lab:topic/planning-agents"}],"lab:uses":[{"@id":"lab:concept/llm"}]},{"@id":"lab:concept/llm","@type":["lab:Concept","skos:Concept"],"skos:prefLabel":[{"@value":"LLM","@language":"ko"},{"@value":"Large language model","@language":"en"}],"skos:definition":[{"@value":"수십억~수조 파라미터의 대규모 언어모델. 범용성·창발성.","@language":"ko"}],"lab:level":1,"lab:status":"known","lab:confidence":"medium","lab:coverage":"mentioned","lab:page":"index","lab:anchor":"#scroll"},{"@id":"lab:topic/system-prompts","@type":["lab:Topic","skos:Concept"],"skos:prefLabel":[{"@value":"시스템 지시문","@language":"ko"},{"@value":"System prompts","@language":"en"}],"lab:level":2,"lab:status":"known","lab:confidence":"medium","lab:coverage":"explained","lab:page":"index","lab:anchor":"#kg"},{"@id":"lab:topic/prompt-patterns","@type":["lab:Topic","skos:Concept"],"skos:prefLabel":[{"@value":"프롬프트 패턴","@language":"ko"},{"@value":"Prompt patterns","@language":"en"}],"lab:level":2,"lab:status":"known","lab:confidence":"medium","lab:coverage":"explained","lab:page":"index","lab:anchor":"#kg"},{"@id":"lab:topic/planning-agents","@type":["lab:Topic","skos:Concept"],"skos:prefLabel":[{"@value":"계획과 반복 실행","@language":"ko"},{"@value":"Planning and iteration","@language":"en"}],"lab:level":3,"lab:status":"known","lab:confidence":"medium","lab:coverage":"explained","lab:page":"index","lab:anchor":"#kg"}]}</script>
+<script type="application/json" id="refs-csl">[]</script>
+<script type="application/json" id="page-meta">{"title":"LLM의 마법 주문서 — Automate Anything (하루판)","number":"01","series":"LLM의 마법 주문서","date":"2026-11-24","version":"1.1","creator":[{"name":"안상선","role":"author"}],"contributor":[{"name":"AI 보조 제작","role":"assistant"}],"about":["lab:method/prompt-engineering","lab:concept/llm-agent"],"basedOn":[],"educationalLevel":"입문~중급","license":"","url":"https://adminmrobo.github.io/Automate_prompt_lab/index.html","registry":"KG_00_registry 0.3","seeAlso":"","suggestedCitation":"안상선 (2026). LLM의 마법 주문서 — Automate Anything (하루판). v1.1."}</script>
+<!-- /lab-kg:body -->
 <footer>
   <div class="wrap">
     <p>원작: Lauren Tan(poteto), "Automate Anything" 프롬프트(Grok Bot용). 이 페이지는 그 구조를 한국어로 다시 만들고 뉴스 분석에 맞게 고친 판입니다.</p>
@@ -270,5 +295,8 @@ document.getElementById('copyBtn').addEventListener('click',async()=>{
   const x=document.getElementById('toast');x.classList.add('on');setTimeout(()=>x.classList.remove('on'),1600);
 });
 </script>
+<!-- lab-kg:script -->
+<script src="kg/kgx.js"></script>
+<!-- /lab-kg:script -->
 </body>
 </html>
